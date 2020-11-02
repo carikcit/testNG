@@ -1,0 +1,22 @@
+<suite name="suite1">
+    <test name="test1">
+        <!--        <groups>-->
+        <!--            <run>-->
+        <!--                <exclude name="Regression"></exclude>-->
+        <!--            </run>-->
+        <!--        </groups>-->
+
+        <classes>
+            <class name="day4._03_Groups"></class>
+            <methods>
+                <include name="Test7"></include>
+                <include name="Test6"></include>
+            </methods>
+        </classes>
+    </test>
+
+</suite>
+
+
+        <!--        when we did not write classes then is it runningfor all classes with group name=regression? -->
+        <!--                    Yes it is running all the classes which is enabled = true or default-->

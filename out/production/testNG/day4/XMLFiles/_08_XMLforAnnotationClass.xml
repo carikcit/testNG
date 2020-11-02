@@ -1,0 +1,8 @@
+<suite name="MySuite"> <!-- Before suite run before the suite tag-->
+    <test name="test1"> <!--Before test run before the test tag-->
+        <classes>
+            <class name="day4._04_Annotations"></class>
+            <class name="day4._05_AnnotationsEx2"></class>
+        </classes>
+    </test>
+</suite>

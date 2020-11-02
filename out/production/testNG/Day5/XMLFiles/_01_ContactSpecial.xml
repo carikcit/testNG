@@ -1,0 +1,9 @@
+<suite name="mySuite">
+    <test name="test1">
+        <parameter name="enquiry" value="Hello "></parameter>  <!-- With this line xml file is searching for enquiry text in the @Test -->
+        <classes>
+            <class name="Day5._01_ContactUs"></class>
+            <class name="Day5._02_Specials"></class>
+        </classes>
+    </test>
+</suite>

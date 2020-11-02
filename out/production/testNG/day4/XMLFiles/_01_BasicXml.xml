@@ -1,0 +1,24 @@
+<!--    Is running the multiple classes in the same time-->
+<!--        I am able to parameterize the tests.-->
+<!--        Help for parallel testing. Open multiple browser in the same time and reduce execution time for us.-->
+<!--        Cross browser testing. Run the tests first with chrome then with firefox -->
+
+<!--    I have 10 @Test-->
+<!--        4 of them as a smoke test-->
+<!--        8 of them as a regression test -->
+
+<!-- One xml file can have ony one suite but it could contain multiple test<>-->
+
+<!-- .xml file is coming from the testNG -->
+<!-- .xml file can not run main class it is looking for the @Test -->
+
+
+<suite  name="suite1">
+    <test name ="test1">
+        <classes>
+            <class name="day4._01_Intro"> </class>
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,12 @@
+
+
+<suite  name="suite1">
+    <test name ="test1">
+        <classes>
+            <class name="day4._01_Intro"></class>
+            <class name="day4._02_Intro"></class>
+        </classes>
+
+    </test>
+
+</suite>
